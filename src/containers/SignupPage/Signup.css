@@ -1,0 +1,10 @@
+.signup_container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_title{
+    margin-top: -50px;
+}

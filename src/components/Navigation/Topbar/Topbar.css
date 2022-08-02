@@ -1,0 +1,13 @@
+.top_bar_nav_item{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: inherit !important;
+}
+.top_bar_username{
+    font-size: 20px;
+}
+
+.top_bar_navbar{
+    background-color: #FFE0A3 !important;
+    border: 1px solid black;
+}

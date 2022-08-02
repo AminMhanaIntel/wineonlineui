@@ -1,0 +1,89 @@
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #943939;
+    color: #fff;
+    margin-left: -250px;
+    transition: all 0.5s;
+  }
+  
+  .sidebar.is-open {
+    margin-left: 0;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+    background: #943939;
+  }
+  
+  .sidebar-header h3 {
+    color: #fff;
+    padding: 1em;
+  }
+  
+  .sidebar ul p {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu-open {
+    background: #943939;
+  }
+  
+  .nav-item:hover {
+    color: #7386d5;
+    background: #fff;
+  }
+
+  .active {
+    color: #7386d5 !important;
+    background: #fff;
+  }
+  
+  .items-menu {
+    color: #fff;
+    background: #943939;
+  }
+  
+  li a.dropdown-toggle::after {
+    display: inline-flex;
+    position: relative;
+    left: 60%;
+    top: 10%;
+  }
+  
+  .sidebar-header > span {
+    position: relative;
+    float: right;
+    margin: 0.5em;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  .side-menu {
+    height: calc(100vh - 130px);
+    overflow-y: scroll;
+  }
+  
+  .side-menu::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb {
+    /* background: #5466b3; */
+    background: #5466b3;
+    border-radius: 3px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb:hover {
+    background: #3a4c99;
+  }
+
+  .logo_size{
+    width: 250px;
+    height: 150px;
+  }
+  
